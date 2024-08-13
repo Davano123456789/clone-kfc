@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.link-kids a{
+    text-decoration: none;
+    color: black;
+
+    font-family: "Poppins", sans-serif;
+  
+}
+.link-kids a:hover{
+    text-decoration: none;
+    color: black;
+
+    font-family: "Poppins", sans-serif;
+  
+}
+.link-kids{
+    margin: 0.2rem 0;
+    padding: 0.5rem 1rem;
+    background-color: rgb(228, 228, 228);
+}
+.link-kids:hover{
+    margin: 0.2rem 0;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 161, 161);
+    cursor: pointer;
+}
+.active-link {
+    color: white;
+    background-color: #e4002b;
+
+}
+.active-link {
+    color: white;
+    background-color: #e4002b;
+
+}
+.active-link a {
+    color: white;
+
+}
+.active-link a:hover{
+    color: white;
+
+}
+.img-kids-right{
+    background-image: url('../image/kids.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 140vh;
+    background-position:center;
+}

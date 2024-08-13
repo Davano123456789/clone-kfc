@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar-brand{
+    
+}
+.navbar-brand img{
+    width: 150px;
+}
+.nav-item{
+
+    margin-left: 2.3rem;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: 1px solid rgba(163, 0, 0, 0);
+}
+.nav-item a:hover{
+    border: 1px solid rgb(163, 0, 0);
+    color: black;
+
+}
+.nav-item-logout{
+    margin-left: 2rem;
+}
+.nav-item-logout a{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(163, 0, 0) ;
+    padding: 0.5rem 2rem;
+    font-weight: 600;
+}
+a.active {
+    background-color: rgb(163, 0, 0) ;
+    color: white;
+    
+}
+a.active:hover {
+    background-color: rgb(163, 0, 0) ;
+    color: white;
+    
+}
+.title-type h2{
+    font-weight: 700;
+}

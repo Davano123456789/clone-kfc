@@ -1,0 +1,133 @@
+.wrap-content{
+    margin-top: 2rem;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    padding: 1rem 2rem;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrap-beranda{
+    height: auto;
+
+}
+.title-video h3{
+    font-weight: 600;
+
+}
+.title-video a{
+    text-decoration: none;
+    color: brown;
+    font-weight: 500;
+
+}
+.title-img-article p{
+    font-weight: 600;
+}
+.image-bg-article{
+    height: 10vh;
+    background-image: url('../image/news.jpg');
+    background-repeat:no-repeat;
+background-size:cover;
+background-position:center;
+}
+.wrap-news{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(175, 175, 175);
+}
+.garis-1{
+    width: 45%;
+   background-color: black;
+    height: 1px;
+}
+.wrap-garis{
+  align-items: center;
+    display: flex;
+}
+.img-garis img{
+    margin: 0 2rem;
+    width: 100px;
+}
+.title-icon {
+    margin: 1rem 0;
+
+    
+}
+.title-icon h5{
+    font-weight: 500;
+}
+.des-icon p{
+    font-size: 1.1rem;
+}
+.see{
+    text-align: center;
+    ;
+}
+.see a{
+    text-decoration: none;
+    color: #e4002b;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid #e4002b;
+    padding: 0.5rem 1.5rem;
+    transition: .2s ease-in-out;
+}
+.see a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #e4002b;
+    border-radius: 20px;
+    font-weight: 500;
+    border: 1px solid #e4002b;
+    padding: 0.5rem 1.5rem;
+}
+.wrap-footer{
+    margin-top: 5rem;
+    height: auto;
+    padding-bottom: 3rem;
+    background-color: #101828;
+}
+.title-footer{
+    margin-top: 4rem;
+    margin-bottom: 1.5rem;
+}
+.title-footer h1{
+
+    color: white;
+}
+.des-footer h5{
+    font-weight: 300;
+    color: white;
+}
+.sign-footer{
+    margin-top: 2rem;
+}
+.sign-footer a{
+    text-decoration: none;
+    color: white;
+    background-color: #e4002b;
+    padding: 0.6rem 2rem;
+    border-radius: 20px;
+    font-weight: 500;
+}
+.copyright{
+    margin-top: 2rem;
+}
+.copyright p{
+    color: rgb(160, 160, 160);
+}
+.link-sosial{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+}
+.link-sosial a{
+    padding: 0.6rem 0.8rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: white;
+    border: 1px solid white;
+}
